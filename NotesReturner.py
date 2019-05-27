@@ -1,7 +1,6 @@
-AmOwed = int(input("Insert the Amount Owed: "))
+RemainingOwed  = int(input("Insert the Amount Owed: "))
 AmPaid = int(input("Insert the Amount Paid: "))
-AmOwed = AmPaid - AmOwed
-RemainingOwed = AmOwed
+RemainingOwed  = AmPaid - RemainingOwed 
 
 print("Balance: ", RemainingOwed)
 print("-------------------")
