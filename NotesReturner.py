@@ -14,7 +14,7 @@ notesOwed = int(RemainingOwed / 20)
 RemainingOwed = RemainingOwed % 20
 if notesOwed >= 1:
 	print("20s: ", notesOwed)
-
+ 
 notesOwed = int(RemainingOwed / 10)
 RemainingOwed = RemainingOwed % 10
 if notesOwed >= 1:
