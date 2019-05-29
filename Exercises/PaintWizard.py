@@ -11,7 +11,16 @@ CheapoMaxPricePerMeter = 19.99 / CheapoMaxAreaPerCan
 AverageJoesPricePerMeter = 17.99 / AverageJoesAreaPerCan
 DuluxPaintsPricePerMater = 25.00 / DuluxPaintsAreaPerCan
 
-print(CheapoMaxPricePerMeter)
-print(AverageJoesPricePerMeter)
-print(DuluxPaintsPricePerMater)
+CheapoMaxLitresNeeded = InputArea / 10
+AverageJoesLitresNeeded = InputArea / 11
+DuluxPaintsLitresNeeded = InputArea / 20
+
+CheapoMaxSpareLitres = 20 - (CheapoMaxLitresNeeded % 20)
+AverageJoesSpareLitres = 15 - (AverageJoesLitresNeeded % 15)
+DuluxPaintsSpareLitres = 10 - (DuluxPaintsLitresNeeded % 10)
+
+print(CheapoMaxSpareLitres)
+print(AverageJoesSpareLitres)
+print(DuluxPaintsSpareLitres)
+
 

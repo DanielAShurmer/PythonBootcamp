@@ -15,8 +15,10 @@ def Tax(Salary):
 	return T
 
 MSG()
+
 Addition(3,5)
 Addition(8,4)
+
 SalOne = int(input("Please enter your salary:"))
 TaxedSal = Tax(SalOne)
 print("Your Tax:",TaxedSal)
