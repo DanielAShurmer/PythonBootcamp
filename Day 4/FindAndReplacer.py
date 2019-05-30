@@ -1,10 +1,7 @@
 def StrToList(String):
-	StringLen = len(String)
-	Counter = 0
 	OutList = []
-	while Counter < StringLen:
-		OutList.append(String[Counter])
-		Counter += 1
+	for character in String:
+		OutList.append(character)
 	return OutList
 
 def FindAndReplace(String,Find,Replace):
