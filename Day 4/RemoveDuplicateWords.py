@@ -20,14 +20,15 @@ FinishedString = ""
 PreviousWords = []
 
 while Count < len(WordList):
+	#Identify if a word is in the duplicates list
 	SubCount = 0
 	MatchFound = False
-
 	while SubCount < len(PreviousWords):
 		if WordList[Count] == PreviousWords[SubCount]:
 			MatchFound = True
 		SubCount += 1
 
+	#If it isn't, add it to the output string & duplicates list
 	if MatchFound == False:
 		PreviousWords.append(WordList[Count])
 		FinishedString += WordList[Count] + " "
@@ -35,4 +36,3 @@ while Count < len(WordList):
 	Count += 1
 
 print(FinishedString)
-

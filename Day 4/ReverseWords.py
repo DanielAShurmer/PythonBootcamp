@@ -22,7 +22,6 @@ def ReverseWord(String):
 		Counter -= 1
 	return OutWord
 
-
 InputString = input("Enter A Message:")
 WordList = SplitWordsIntoList(InputString)
 Count = 0
