@@ -24,5 +24,6 @@ File_W = open("FindAndReplaced"+FileToEdit,"w")
 StringToFind = input("Enter A Substring To Find:")
 StringToReplace = input("Enter A Substring To Replace With:") 
 for Line in File_R:
-	if Line != "":
+	if Line != "\n":
 		print(FindAndReplace(Line,StringToFind,StringToReplace),file=File_W)
+print("File Successfully Saved As: FindAndReplaced"+FileToEdit)
