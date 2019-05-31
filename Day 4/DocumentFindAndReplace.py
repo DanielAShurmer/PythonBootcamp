@@ -1,7 +1,8 @@
 def StrToList(String):
 	OutList = []
 	for character in String:
-		OutList.append(character)
+		if Character != "\n":
+			OutList.append(character)
 	return OutList
 
 def FindAndReplace(String,Find,Replace):

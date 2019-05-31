@@ -1,11 +1,7 @@
-This file contains many words.
+This file contains many words. 
  
+Some of the words are same as each other. 
 
- 
-Some of the words are same as each other.
- 
-
-But there enough words?
- 
+But there enough words? 
 
 There will never be 

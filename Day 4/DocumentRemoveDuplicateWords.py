@@ -6,7 +6,8 @@ def SplitWordsIntoList(String):
 			OutList.append(CurrentWord)
 			CurrentWord = ""
 		else:
-			CurrentWord += Character
+			if Character != "\n":
+				CurrentWord += Character
 	OutList.append(CurrentWord)
 	return OutList  
 
